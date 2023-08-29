@@ -22,7 +22,7 @@
           "src/main/resources/assets/minebbb/models/item/level_0lamp.json",
           "src/main/resources/assets/minebbb/models/block/level_0lamp.json",
           "src/main/resources/assets/minebbb/blockstates/level_0lamp.json",
-          "src/main/java/backrooms/block/Level0lampBlock.java"
+          "src/main/java/com/minebbb/www/block/Level0lampBlock.java"
         ]
       }
     },
@@ -36,8 +36,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebbb/models/item/level_0_wallpaper.json",
+          "src/main/java/com/minebbb/www/block/Level0WallpaperBlock.java",
           "src/main/resources/assets/minebbb/blockstates/level_0_wallpaper.json",
-          "src/main/java/backrooms/block/Level0WallpaperBlock.java",
           "src/main/resources/assets/minebbb/models/block/level_0_wallpaper.json"
         ]
       }
@@ -51,8 +51,8 @@
       "registry_name": "level_0_floor",
       "metadata": {
         "files": [
-          "src/main/java/backrooms/block/Level0FloorBlock.java",
           "src/main/resources/assets/minebbb/models/block/level_0_floor.json",
+          "src/main/java/com/minebbb/www/block/Level0FloorBlock.java",
           "src/main/resources/assets/minebbb/blockstates/level_0_floor.json",
           "src/main/resources/assets/minebbb/models/item/level_0_floor.json"
         ]
@@ -70,7 +70,7 @@
           "src/main/resources/assets/minebbb/models/item/level_0_wallpaper_2.json",
           "src/main/resources/assets/minebbb/models/block/level_0_wallpaper_2.json",
           "src/main/resources/assets/minebbb/blockstates/level_0_wallpaper_2.json",
-          "src/main/java/backrooms/block/Level0Wallpaper2Block.java"
+          "src/main/java/com/minebbb/www/block/Level0Wallpaper2Block.java"
         ]
       }
     },
@@ -85,8 +85,8 @@
         "files": [
           "src/main/resources/assets/minebbb/models/block/level_0_celling.json",
           "src/main/resources/assets/minebbb/blockstates/level_0_celling.json",
-          "src/main/resources/assets/minebbb/models/item/level_0_celling.json",
-          "src/main/java/backrooms/block/Level0CellingBlock.java"
+          "src/main/java/com/minebbb/www/block/Level0CellingBlock.java",
+          "src/main/resources/assets/minebbb/models/item/level_0_celling.json"
         ]
       }
     },
@@ -101,7 +101,7 @@
         "files": [
           "src/main/resources/assets/minebbb/models/block/brokenlamp.json",
           "src/main/resources/assets/minebbb/models/item/brokenlamp.json",
-          "src/main/java/backrooms/block/BrokenlampBlock.java",
+          "src/main/java/com/minebbb/www/block/BrokenlampBlock.java",
           "src/main/resources/assets/minebbb/blockstates/brokenlamp.json"
         ]
       }
@@ -115,9 +115,9 @@
       "registry_name": "warningblock",
       "metadata": {
         "files": [
-          "src/main/java/backrooms/block/WarningblockBlock.java",
           "src/main/resources/assets/minebbb/models/block/warningblock.json",
           "src/main/resources/assets/minebbb/models/item/warningblock.json",
+          "src/main/java/com/minebbb/www/block/WarningblockBlock.java",
           "src/main/resources/assets/minebbb/blockstates/warningblock.json"
         ]
       }
@@ -134,7 +134,7 @@
           "src/main/resources/assets/minebbb/blockstates/level_1_wall.json",
           "src/main/resources/assets/minebbb/models/item/level_1_wall.json",
           "src/main/resources/assets/minebbb/models/block/level_1_wall.json",
-          "src/main/java/backrooms/block/Level1WallBlock.java"
+          "src/main/java/com/minebbb/www/block/Level1WallBlock.java"
         ]
       }
     },
@@ -149,7 +149,7 @@
         "files": [
           "src/main/resources/assets/minebbb/models/item/level_1_floor.json",
           "src/main/resources/assets/minebbb/models/block/level_1_floor.json",
-          "src/main/java/backrooms/block/Level1FloorBlock.java",
+          "src/main/java/com/minebbb/www/block/Level1FloorBlock.java",
           "src/main/resources/assets/minebbb/blockstates/level_1_floor.json"
         ]
       }
@@ -163,8 +163,8 @@
       "registry_name": "warning_wall",
       "metadata": {
         "files": [
-          "src/main/java/backrooms/block/WarningWallBlock.java",
           "src/main/resources/assets/minebbb/models/block/warning_wall.json",
+          "src/main/java/com/minebbb/www/block/WarningWallBlock.java",
           "src/main/resources/assets/minebbb/blockstates/warning_wall.json",
           "src/main/resources/assets/minebbb/models/item/warning_wall.json"
         ]
@@ -214,10 +214,11 @@
   },
   "workspaceSettings": {
     "modid": "minebbb",
-    "modName": "MineBBB",
+    "modName": "Mine BBB",
     "version": "1.0.0",
     "description": "A open source backrooms mod.",
     "author": "HYPER, MCreator",
+    "websiteURL": "https://slatt.team/",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -227,7 +228,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "backrooms",
+    "modElementsPackage": "com.minebbb.www",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300224119

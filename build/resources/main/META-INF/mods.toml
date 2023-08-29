@@ -5,9 +5,9 @@ license="MIT License"
 [[mods]]
 modId="minebbb"
 version="1.0.0"
-displayName="Mine BBB"
+displayName="MineBBB"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://slatt.team/"
+displayURL="https://mcreator.net"
 authors="HYPER, MCreator"
 description="A open source backrooms mod."
 
