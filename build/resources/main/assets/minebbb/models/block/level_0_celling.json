@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "minebbb:blocks/level_0_ceiling",
-    "particle": "minebbb:blocks/level_0_ceiling"
-  },
-  "render_type": "solid"
-}
