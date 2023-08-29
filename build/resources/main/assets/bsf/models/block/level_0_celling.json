@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "bsf:blocks/level_0_ceiling",
-    "particle": "bsf:blocks/level_0_ceiling"
-  },
-  "render_type": "solid"
-}

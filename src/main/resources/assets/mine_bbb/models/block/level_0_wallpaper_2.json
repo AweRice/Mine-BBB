@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mine_bbb:blocks/level_0_lamp",
+    "up": "mine_bbb:blocks/level_0_lamp",
+    "north": "mine_bbb:blocks/level_0_wallpaper_2",
+    "east": "mine_bbb:blocks/level_0_wallpaper_2",
+    "south": "mine_bbb:blocks/level_0_wallpaper_2",
+    "west": "mine_bbb:blocks/level_0_wallpaper_2",
+    "particle": "mine_bbb:blocks/level_0_lamp"
+  },
+  "render_type": "solid"
+}

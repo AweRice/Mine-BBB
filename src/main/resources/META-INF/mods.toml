@@ -1,16 +1,17 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
-modId="bsf"
+modId="mine_bbb"
 version="1.0.0"
-displayName="BSF"
+displayName="Mine BBB"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="GLCO2, MCreator"
+displayURL="https://slatt.team"
+authors="HYPER, MCreator"
+description="A open source backrooms mod."
 
-[[dependencies.bsf]]
+[[dependencies.mine_bbb]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

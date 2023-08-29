@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "bsf:blocks/pu_tong_hun_ning_tu_zhu_zi_di_ban_",
-    "particle": "bsf:blocks/pu_tong_hun_ning_tu_zhu_zi_di_ban_"
-  },
-  "render_type": "solid"
-}

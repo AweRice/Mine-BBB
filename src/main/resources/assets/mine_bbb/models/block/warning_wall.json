@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mine_bbb:blocks/sun_pi_de_ying_guang_deng_",
+    "up": "mine_bbb:blocks/sun_pi_de_ying_guang_deng_",
+    "north": "mine_bbb:blocks/zhu_zi_fang_kuai_",
+    "east": "mine_bbb:blocks/zhu_zi_fang_kuai_",
+    "south": "mine_bbb:blocks/zhu_zi_fang_kuai_",
+    "west": "mine_bbb:blocks/zhu_zi_fang_kuai_",
+    "particle": "mine_bbb:blocks/sun_pi_de_ying_guang_deng_"
+  },
+  "render_type": "solid"
+}
