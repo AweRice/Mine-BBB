@@ -32,10 +32,23 @@ jobs:
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
         arguments: build
-    - name: Create a Release
-      uses: elgohr/Github-Release-Action@v4
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        title: AutoRelease
-
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: Dev Build ${{ github.ref }}
+        draft: false
+        prerelease: false
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: build/libs/modid-1.0.jar
+        asset_name: minebbb-dev-${{ github.ref }}.jar
+        asset_content_type: application/jar
