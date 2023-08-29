@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebbb:blocks/pu_tong_hun_ning_tu_zhu_zi_di_ban_",
+    "particle": "minebbb:blocks/pu_tong_hun_ning_tu_zhu_zi_di_ban_"
+  },
+  "render_type": "solid"
+}
