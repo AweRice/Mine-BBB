@@ -20,10 +20,10 @@ import com.minebbb.www.block.Level0Wallpaper2Block;
 import com.minebbb.www.block.Level0FloorBlock;
 import com.minebbb.www.block.Level0CellingBlock;
 import com.minebbb.www.block.BrokenlampBlock;
-import com.minebbb.www.MineBbbMod;
+import com.minebbb.www.MinebbbMod;
 
-public class MineBbbModBlocks {
-	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MineBbbMod.MODID);
+public class MinebbbModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MinebbbMod.MODID);
 	public static final RegistryObject<Block> LEVEL_0_WALLPAPER = REGISTRY.register("level_0_wallpaper", () -> new Level0WallpaperBlock());
 	public static final RegistryObject<Block> LEVEL_0LAMP = REGISTRY.register("level_0lamp", () -> new Level0lampBlock());
 	public static final RegistryObject<Block> LEVEL_0_FLOOR = REGISTRY.register("level_0_floor", () -> new Level0FloorBlock());

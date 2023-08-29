@@ -3,15 +3,15 @@ loaderVersion="[43,)"
 license="MIT License"
 
 [[mods]]
-modId="mine_bbb"
+modId="minebbb"
 version="1.0.0"
 displayName="Mine BBB"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://slatt.team"
+displayURL="https://slatt.team/"
 authors="HYPER, MCreator"
 description="A open source backrooms mod."
 
-[[dependencies.mine_bbb]]
+[[dependencies.minebbb]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

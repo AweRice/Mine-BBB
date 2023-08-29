@@ -38,22 +38,22 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-import com.minebbb.www.init.MineBbbModTabs;
-import com.minebbb.www.init.MineBbbModItems;
-import com.minebbb.www.init.MineBbbModBlocks;
+import com.minebbb.www.init.MinebbbModTabs;
+import com.minebbb.www.init.MinebbbModItems;
+import com.minebbb.www.init.MinebbbModBlocks;
 
-@Mod("mine_bbb")
-public class MineBbbMod {
-	public static final Logger LOGGER = LogManager.getLogger(MineBbbMod.class);
-	public static final String MODID = "mine_bbb";
+@Mod("minebbb")
+public class MinebbbMod {
+	public static final Logger LOGGER = LogManager.getLogger(MinebbbMod.class);
+	public static final String MODID = "minebbb";
 
-	public MineBbbMod() {
+	public MinebbbMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-		MineBbbModTabs.load();
+		MinebbbModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		MineBbbModBlocks.REGISTRY.register(bus);
-		MineBbbModItems.REGISTRY.register(bus);
+		MinebbbModBlocks.REGISTRY.register(bus);
+		MinebbbModItems.REGISTRY.register(bus);
 
 	}
 

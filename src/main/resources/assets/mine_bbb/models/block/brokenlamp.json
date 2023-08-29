@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mine_bbb:blocks/sun_pi_de_ying_guang_deng_",
-    "particle": "mine_bbb:blocks/sun_pi_de_ying_guang_deng_"
-  },
-  "render_type": "solid"
-}

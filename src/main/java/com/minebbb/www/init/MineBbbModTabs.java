@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
-public class MineBbbModTabs {
+public class MinebbbModTabs {
 	public static CreativeModeTab TAB_BSF_MOD;
 
 	public static void load() {

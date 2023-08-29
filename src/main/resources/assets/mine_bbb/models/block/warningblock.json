@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mine_bbb:blocks/sprite-fangkuai",
-    "particle": "mine_bbb:blocks/sprite-fangkuai"
-  },
-  "render_type": "solid"
-}
