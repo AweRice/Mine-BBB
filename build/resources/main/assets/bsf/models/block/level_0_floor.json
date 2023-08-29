@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bsf:blocks/level_0_floor-export",
+    "particle": "bsf:blocks/level_0_floor-export"
+  },
+  "render_type": "solid"
+}

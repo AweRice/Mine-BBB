@@ -1,0 +1,13 @@
+{
+  "block.bsf.level_0_floor": "Level 0 Floor",
+  "block.bsf.level_0_celling": "Level 0 Celling",
+  "block.bsf.level_0lamp": "Level 0lamp",
+  "block.bsf.level_0_wallpaper_2": "Level 0 Wallpaper 2",
+  "block.bsf.level_1_wall": "Level 1 Wall",
+  "itemGroup.tabbsf_mod": "BSF Mod",
+  "block.bsf.level_1_floor": "Level 1 Floor",
+  "block.bsf.warning_wall": "Warning Wall",
+  "block.bsf.brokenlamp": "Brokenlamp",
+  "block.bsf.level_0_wallpaper": "Level 0 Wallpaper",
+  "block.bsf.warningblock": "Warningblock"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bsf:blocks/level_0_lamp",
+    "particle": "bsf:blocks/level_0_lamp"
+  },
+  "render_type": "solid"
+}

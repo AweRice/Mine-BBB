@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bsf:blocks/sun_pi_de_ying_guang_deng_",
+    "particle": "bsf:blocks/sun_pi_de_ying_guang_deng_"
+  },
+  "render_type": "solid"
+}

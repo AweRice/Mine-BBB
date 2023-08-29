@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bsf:blocks/bai_se_hun_ning_tu_qiang_",
+    "particle": "bsf:blocks/bai_se_hun_ning_tu_qiang_"
+  },
+  "render_type": "solid"
+}

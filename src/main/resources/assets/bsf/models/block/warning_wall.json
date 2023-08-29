@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bsf:blocks/sun_pi_de_ying_guang_deng_",
+    "up": "bsf:blocks/sun_pi_de_ying_guang_deng_",
+    "north": "bsf:blocks/zhu_zi_fang_kuai_",
+    "east": "bsf:blocks/zhu_zi_fang_kuai_",
+    "south": "bsf:blocks/zhu_zi_fang_kuai_",
+    "west": "bsf:blocks/zhu_zi_fang_kuai_",
+    "particle": "bsf:blocks/sun_pi_de_ying_guang_deng_"
+  },
+  "render_type": "solid"
+}

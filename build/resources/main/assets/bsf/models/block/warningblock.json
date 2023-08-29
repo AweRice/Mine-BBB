@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bsf:blocks/sprite-fangkuai",
+    "particle": "bsf:blocks/sprite-fangkuai"
+  },
+  "render_type": "solid"
+}
