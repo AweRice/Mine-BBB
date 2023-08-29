@@ -32,8 +32,13 @@ jobs:
       uses: gradle/gradle-build-action@v2
       with:
         arguments: build
-    - name: GitHub Release
-      uses: softprops/action-gh-release@v0.1.15
-      if: startsWith(github.ref, 'refs/tags/')
+    - name: Create Release
+      uses: marvinpinto/action-automatic-releases@latest
       with:
-        files: ./build/lib/modid-1.0.jar
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: auto_build
+        title: Auto Build
+        prerelease: false
+        files: |
+          build/libs/*
+  
