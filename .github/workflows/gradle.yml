@@ -32,13 +32,15 @@ jobs:
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
         arguments: build
-    - name: Create Release
-      uses: marvinpinto/action-automatic-releases@latest
+    - name: Create Release and Upload Release Asset
+      uses: softprops/action-gh-release@v1
+      #if#: startsWith(github.ref, 'refs/tags/')
       with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: auto_build
-        title: Auto Build
+        tag_name: auto_build
+        name: Auto Build Binary
+        body: Auto Build Binary
+        draft: false
         prerelease: false
         files: |
           build/libs/*
-  
+          LICENSE 
