@@ -27,6 +27,8 @@ public class MinebbbModItems {
 	public static final RegistryObject<Item> LEVEL_1_WALL = block(MinebbbModBlocks.LEVEL_1_WALL, MinebbbModTabs.TAB_BSF_MOD);
 	public static final RegistryObject<Item> LEVEL_1_FLOOR = block(MinebbbModBlocks.LEVEL_1_FLOOR, MinebbbModTabs.TAB_BSF_MOD);
 	public static final RegistryObject<Item> WARNING_WALL = block(MinebbbModBlocks.WARNING_WALL, MinebbbModTabs.TAB_BSF_MOD);
+	public static final RegistryObject<Item> IRONBOX = block(MinebbbModBlocks.IRONBOX, MinebbbModTabs.TAB_BSF_MOD);
+	public static final RegistryObject<Item> IRONBOX_2 = block(MinebbbModBlocks.IRONBOX_2, MinebbbModTabs.TAB_BSF_MOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

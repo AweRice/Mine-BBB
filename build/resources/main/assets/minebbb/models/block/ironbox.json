@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebbb:blocks/tie_tiao_xiang_shang_xia_",
+    "up": "minebbb:blocks/tie_tiao_xiang_shang_xia_",
+    "north": "minebbb:blocks/tie_tiao_xiang_heng_si_zhou_",
+    "east": "minebbb:blocks/tie_tiao_xiang_heng_si_zhou_",
+    "south": "minebbb:blocks/tie_tiao_xiang_heng_si_zhou_",
+    "west": "minebbb:blocks/tie_tiao_xiang_heng_si_zhou_",
+    "particle": "minebbb:blocks/tie_tiao_xiang_shang_xia_"
+  },
+  "render_type": "solid"
+}

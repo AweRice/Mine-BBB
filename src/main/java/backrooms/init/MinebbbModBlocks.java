@@ -19,6 +19,8 @@ import backrooms.block.Level0WallpaperBlock;
 import backrooms.block.Level0Wallpaper2Block;
 import backrooms.block.Level0FloorBlock;
 import backrooms.block.Level0CellingBlock;
+import backrooms.block.IronboxBlock;
+import backrooms.block.Ironbox2Block;
 import backrooms.block.BrokenlampBlock;
 
 import backrooms.MinebbbMod;
@@ -35,4 +37,6 @@ public class MinebbbModBlocks {
 	public static final RegistryObject<Block> LEVEL_1_WALL = REGISTRY.register("level_1_wall", () -> new Level1WallBlock());
 	public static final RegistryObject<Block> LEVEL_1_FLOOR = REGISTRY.register("level_1_floor", () -> new Level1FloorBlock());
 	public static final RegistryObject<Block> WARNING_WALL = REGISTRY.register("warning_wall", () -> new WarningWallBlock());
+	public static final RegistryObject<Block> IRONBOX = REGISTRY.register("ironbox", () -> new IronboxBlock());
+	public static final RegistryObject<Block> IRONBOX_2 = REGISTRY.register("ironbox_2", () -> new Ironbox2Block());
 }

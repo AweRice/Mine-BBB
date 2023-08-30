@@ -185,22 +185,6 @@
           "src/main/resources/assets/minebbb/models/block/ironbox.json"
         ]
       }
-    },
-    {
-      "name": "Ironbox2",
-      "type": "block",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ironbox_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/minebbb/models/item/ironbox_2.json",
-          "src/main/resources/assets/minebbb/models/block/ironbox_2.json",
-          "src/main/resources/assets/minebbb/blockstates/ironbox_2.json",
-          "src/main/java/backrooms/block/Ironbox2Block.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -223,7 +207,6 @@
       "block.mine_bbb.warning_wall": "Warning Wall",
       "block.bsf.level_1_floor": "Level 1 Floor",
       "block.minebbb.ironbox": "Ironbox",
-      "block.minebbb.ironbox_2": "Ironbox 2",
       "block.bsf.brokenlamp": "Brokenlamp",
       "block.mine_bbb.level_0_wallpaper": "Level 0 Wallpaper",
       "block.bsf.warningblock": "Warningblock",
