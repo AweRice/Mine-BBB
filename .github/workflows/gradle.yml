@@ -32,15 +32,18 @@ jobs:
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
         arguments: build
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        tag_name: automatic_builds
-        release_name: Automatic Build
-        body: Automatic Build
+        tag_name: nightly-build-${{ steps.date.outputs.date }}
+        release_name: Nightly Release ${{ steps.date.outputs.date }}
+        body: This is a automatic build.
         draft: false
         prerelease: false
     - name: Upload Release Asset
