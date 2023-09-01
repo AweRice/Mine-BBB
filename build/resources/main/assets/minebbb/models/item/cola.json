@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minebbb:items/mou_bu_zhi_ming_qi_shui_"
+  }
+}

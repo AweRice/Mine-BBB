@@ -13,7 +13,9 @@ import net.minecraft.world.level.block.Block;
 import backrooms.block.WarningblockBlock;
 import backrooms.block.WarningWallBlock;
 import backrooms.block.Level1WallBlock;
+import backrooms.block.Level1PipelineBlock;
 import backrooms.block.Level1FloorBlock;
+import backrooms.block.Level1CeilingBlock;
 import backrooms.block.Level0lampBlock;
 import backrooms.block.Level0WallpaperBlock;
 import backrooms.block.Level0Wallpaper2Block;
@@ -21,7 +23,10 @@ import backrooms.block.Level0FloorBlock;
 import backrooms.block.Level0CellingBlock;
 import backrooms.block.IronboxBlock;
 import backrooms.block.Ironbox2Block;
+import backrooms.block.IronbarBlock;
+import backrooms.block.CopperBlockBlock;
 import backrooms.block.BrokenlampBlock;
+import backrooms.block.BoxBlock;
 
 import backrooms.MinebbbMod;
 
@@ -39,4 +44,9 @@ public class MinebbbModBlocks {
 	public static final RegistryObject<Block> WARNING_WALL = REGISTRY.register("warning_wall", () -> new WarningWallBlock());
 	public static final RegistryObject<Block> IRONBOX = REGISTRY.register("ironbox", () -> new IronboxBlock());
 	public static final RegistryObject<Block> IRONBOX_2 = REGISTRY.register("ironbox_2", () -> new Ironbox2Block());
+	public static final RegistryObject<Block> BOX = REGISTRY.register("box", () -> new BoxBlock());
+	public static final RegistryObject<Block> IRONBAR = REGISTRY.register("ironbar", () -> new IronbarBlock());
+	public static final RegistryObject<Block> COPPER_BLOCK = REGISTRY.register("copper_block", () -> new CopperBlockBlock());
+	public static final RegistryObject<Block> LEVEL_1_PIPELINE = REGISTRY.register("level_1_pipeline", () -> new Level1PipelineBlock());
+	public static final RegistryObject<Block> LEVEL_1_CEILING = REGISTRY.register("level_1_ceiling", () -> new Level1CeilingBlock());
 }

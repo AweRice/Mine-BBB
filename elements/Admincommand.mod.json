@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "minebbb",
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">the_beginning_terminal</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">Player</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Showterminal</field></block></statement></block></statement></block></next></block></xml>"
+  }
+}

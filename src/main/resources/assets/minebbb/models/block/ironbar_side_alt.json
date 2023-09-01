@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "minebbb:blocks/tie_lan_gan_tie_tu_fei_wan_zheng_fang_kuai_lei_",
+    "pane": "minebbb:blocks/tie_lan_gan_tie_tu_fei_wan_zheng_fang_kuai_lei_"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minebbb:items/ye_tai_tong_ku_"
+  }
+}

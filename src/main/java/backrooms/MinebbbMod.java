@@ -39,6 +39,9 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import backrooms.init.MinebbbModTabs;
+import backrooms.init.MinebbbModPotions;
+import backrooms.init.MinebbbModPaintings;
+import backrooms.init.MinebbbModMenus;
 import backrooms.init.MinebbbModItems;
 import backrooms.init.MinebbbModBlocks;
 
@@ -54,6 +57,12 @@ public class MinebbbMod {
 
 		MinebbbModBlocks.REGISTRY.register(bus);
 		MinebbbModItems.REGISTRY.register(bus);
+
+		MinebbbModPaintings.REGISTRY.register(bus);
+
+		MinebbbModPotions.REGISTRY.register(bus);
+
+		MinebbbModMenus.REGISTRY.register(bus);
 
 	}
 

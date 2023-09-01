@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minebbb:blocks/tie_lan_gan_tie_tu_fei_wan_zheng_fang_kuai_lei_"
+  },
+  "render_type": "cutout_mipped"
+}

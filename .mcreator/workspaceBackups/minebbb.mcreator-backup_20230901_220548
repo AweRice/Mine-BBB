@@ -1,0 +1,682 @@
+{
+  "mod_elements": [
+    {
+      "name": "BSFMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsf_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Level0lamp",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/level_0lamp.json",
+          "src/main/resources/assets/minebbb/models/block/level_0lamp.json",
+          "src/main/resources/assets/minebbb/blockstates/level_0lamp.json",
+          "src/main/java/backrooms/block/Level0lampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Level0Wallpaper",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_wallpaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/level_0_wallpaper.json",
+          "src/main/resources/assets/minebbb/blockstates/level_0_wallpaper.json",
+          "src/main/java/backrooms/block/Level0WallpaperBlock.java",
+          "src/main/resources/assets/minebbb/models/block/level_0_wallpaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Level0Floor",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_floor",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/block/Level0FloorBlock.java",
+          "src/main/resources/assets/minebbb/models/block/level_0_floor.json",
+          "src/main/resources/assets/minebbb/blockstates/level_0_floor.json",
+          "src/main/resources/assets/minebbb/models/item/level_0_floor.json"
+        ]
+      }
+    },
+    {
+      "name": "Level0Wallpaper2",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_wallpaper_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/level_0_wallpaper_2.json",
+          "src/main/resources/assets/minebbb/models/block/level_0_wallpaper_2.json",
+          "src/main/resources/assets/minebbb/blockstates/level_0_wallpaper_2.json",
+          "src/main/java/backrooms/block/Level0Wallpaper2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Level0Celling",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_celling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/block/level_0_celling.json",
+          "src/main/resources/assets/minebbb/blockstates/level_0_celling.json",
+          "src/main/resources/assets/minebbb/models/item/level_0_celling.json",
+          "src/main/java/backrooms/block/Level0CellingBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Brokenlamp",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenlamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/block/brokenlamp.json",
+          "src/main/resources/assets/minebbb/models/item/brokenlamp.json",
+          "src/main/java/backrooms/block/BrokenlampBlock.java",
+          "src/main/resources/assets/minebbb/blockstates/brokenlamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Warningblock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warningblock",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/block/WarningblockBlock.java",
+          "src/main/resources/assets/minebbb/models/block/warningblock.json",
+          "src/main/resources/assets/minebbb/models/item/warningblock.json",
+          "src/main/resources/assets/minebbb/blockstates/warningblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1Wall",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/blockstates/level_1_wall.json",
+          "src/main/resources/assets/minebbb/models/item/level_1_wall.json",
+          "src/main/resources/assets/minebbb/models/block/level_1_wall.json",
+          "src/main/java/backrooms/block/Level1WallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Level1Floor",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/level_1_floor.json",
+          "src/main/resources/assets/minebbb/models/block/level_1_floor.json",
+          "src/main/java/backrooms/block/Level1FloorBlock.java",
+          "src/main/resources/assets/minebbb/blockstates/level_1_floor.json"
+        ]
+      }
+    },
+    {
+      "name": "WarningWall",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warning_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/block/WarningWallBlock.java",
+          "src/main/resources/assets/minebbb/models/block/warning_wall.json",
+          "src/main/resources/assets/minebbb/blockstates/warning_wall.json",
+          "src/main/resources/assets/minebbb/models/item/warning_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbox",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/ironbox.json",
+          "src/main/resources/assets/minebbb/blockstates/ironbox.json",
+          "src/main/java/backrooms/block/IronboxBlock.java",
+          "src/main/resources/assets/minebbb/models/block/ironbox.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbox2",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbox_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/ironbox_2.json",
+          "src/main/resources/assets/minebbb/models/block/ironbox_2.json",
+          "src/main/resources/assets/minebbb/blockstates/ironbox_2.json",
+          "src/main/java/backrooms/block/Ironbox2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Box",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/box.json",
+          "src/main/resources/assets/minebbb/blockstates/box.json",
+          "src/main/java/backrooms/block/BoxBlock.java",
+          "src/main/resources/assets/minebbb/models/block/box.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbar",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbar",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/block/IronbarBlock.java",
+          "src/main/resources/assets/minebbb/models/block/ironbar_noside.json",
+          "src/main/resources/assets/minebbb/models/block/ironbar_noside_alt.json",
+          "src/main/resources/assets/minebbb/models/block/ironbar_post.json",
+          "src/main/resources/assets/minebbb/blockstates/ironbar.json",
+          "src/main/resources/assets/minebbb/models/block/ironbar_side_alt.json",
+          "src/main/resources/assets/minebbb/models/item/ironbar.json",
+          "src/main/resources/assets/minebbb/models/block/ironbar_side.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/block/CopperBlockBlock.java",
+          "src/main/resources/assets/minebbb/models/item/copper_block.json",
+          "src/main/resources/assets/minebbb/blockstates/copper_block.json",
+          "src/main/resources/assets/minebbb/models/block/copper_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1Pipeline",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_pipeline",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/block/level_1_pipeline_post.json",
+          "src/main/resources/assets/minebbb/models/item/level_1_pipeline.json",
+          "src/main/resources/assets/minebbb/blockstates/level_1_pipeline.json",
+          "src/main/resources/assets/minebbb/models/block/level_1_pipeline_side_tall.json",
+          "src/main/java/backrooms/block/Level1PipelineBlock.java",
+          "src/main/resources/assets/minebbb/models/block/level_1_pipeline.json",
+          "src/main/resources/assets/minebbb/models/block/level_1_pipeline_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1Ceiling",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_ceiling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/level_1_ceiling.json",
+          "src/main/java/backrooms/block/Level1CeilingBlock.java",
+          "src/main/resources/assets/minebbb/blockstates/level_1_ceiling.json",
+          "src/main/resources/assets/minebbb/models/block/level_1_ceiling.json"
+        ]
+      }
+    },
+    {
+      "name": "Thebeginning",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thebeginning",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/client/gui/ThebeginningScreen.java",
+          "src/main/java/backrooms/network/ThebeginningButtonMessage.java",
+          "src/main/java/backrooms/world/inventory/ThebeginningMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Suicide",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suicide",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/procedures/SuicideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Escape",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escape",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/command/EscapeCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Admincommand",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admincommand",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/command/AdmincommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Showterminal",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showterminal",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/procedures/ShowterminalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Closeterminal",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closeterminal",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/procedures/CloseterminalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TERMINALSUMMON",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminalsummon",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/procedures/TERMINALSUMMONProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cola",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/item/ColaItem.java",
+          "src/main/resources/assets/minebbb/models/item/cola.json"
+        ]
+      }
+    },
+    {
+      "name": "Money",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/item/MoneyItem.java",
+          "src/main/resources/assets/minebbb/models/item/money.json"
+        ]
+      }
+    },
+    {
+      "name": "Tomatocanning",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomatocanning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/tomatocanning.json",
+          "src/main/java/backrooms/item/TomatocanningItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Liquidpain",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquidpain",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Unknownliquid",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownliquid",
+      "metadata": {
+        "files": [
+          "src/main/java/backrooms/item/UnknownliquidItem.java",
+          "src/main/resources/assets/minebbb/models/item/unknownliquid.json"
+        ]
+      }
+    },
+    {
+      "name": "LevelKey",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/level_key.json",
+          "src/main/java/backrooms/item/LevelKeyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Firesalt",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebbb/models/item/firesalt.json",
+          "src/main/java/backrooms/item/FiresaltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FUN",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fun",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minebbb.unknownliquid": "Unknown Liquid",
+      "block.minebbb.warning_wall": "Warning Wall",
+      "block.bsf.warning_wall": "Warning Wall",
+      "block.mine_bbb.level_0_floor": "Level 0 Floor",
+      "block.minebbb.level_1_wall": "Level 1 Wall",
+      "block.mine_bbb.level_0_celling": "Level 0 Celling",
+      "block.mine_bbb.warningblock": "Warningblock",
+      "block.bsf.level_1_wall": "Level 1 Wall",
+      "block.bsf.level_1_floor": "Level 1 Floor",
+      "block.minebbb.ironbox": "Ironbox",
+      "block.minebbb.ironbox_2": "Ironbox 2",
+      "block.minebbb.level_0lamp": "Level 0lamp",
+      "block.bsf.level_0_celling": "Level 0 Celling",
+      "item.minebbb.level_key": "Level Key",
+      "block.minebbb.brokenlamp": "Brokenlamp",
+      "item.minecraft.lingering_potion.effect.liquidpain": "Lingering Potion of Liquid Pain",
+      "item.minebbb.money": "Money",
+      "block.mine_bbb.level_1_floor": "Level 1 Floor",
+      "block.bsf.level_0_wallpaper": "Level 0 Wallpaper",
+      "block.minebbb.level_1_pipeline": "Level 1 Pipeline",
+      "block.minebbb.level_0_celling": "Level 0 Celling",
+      "item.minecraft.potion.effect.liquidpain": "Potion of Liquid Pain",
+      "block.bsf.level_0_floor": "Level 0 Floor",
+      "block.minebbb.level_0_wallpaper": "Level 0 Wallpaper",
+      "item.minebbb.tomatocanning": "Tomato Canning",
+      "gui.minebbb.thebeginning.button_summon_mob": "SUMMON_MOB",
+      "block.minebbb.warningblock": "Warning Block",
+      "block.minebbb.level_1_ceiling": "Level 1 Ceiling",
+      "block.mine_bbb.level_0lamp": "Level 0 Lamp",
+      "gui.minebbb.thebeginning.button_close": "CLOSE",
+      "block.mine_bbb.level_0_wallpaper_2": "Level 0 Wallpaper 2",
+      "block.minebbb.level_1_floor": "Level 1 Floor",
+      "item.minecraft.tipped_arrow.effect.liquidpain": "Arrow of Liquid Pain",
+      "block.bsf.level_0_wallpaper_2": "Level 0 Wallpaper 2",
+      "block.minebbb.copper_block": "Copper Block",
+      "itemGroup.tabbsf_mod": "BSF Mod",
+      "block.minebbb.box": "Box",
+      "block.mine_bbb.warning_wall": "Warning Wall",
+      "item.minebbb.firesalt": "Fire Salt",
+      "gui.minebbb.thebeginning.button_quit": "QUIT",
+      "block.bsf.brokenlamp": "Brokenlamp",
+      "block.mine_bbb.level_0_wallpaper": "Level 0 Wallpaper",
+      "block.bsf.warningblock": "Warningblock",
+      "block.minebbb.ironbar": "Iron bar",
+      "block.minebbb.level_0_wallpaper_2": "Level 0 Wallpaper 2",
+      "item.minecraft.splash_potion.effect.liquidpain": "Splash Potion of Liquid Pain",
+      "block.mine_bbb.level_1_wall": "Level 1 Wall",
+      "block.minebbb.level_0_floor": "Level 0 Floor",
+      "item.minebbb.cola": "Cola",
+      "block.bsf.level_0lamp": "Level 0 Lamp",
+      "gui.minebbb.thebeginning.label_terminal": "TERMINAL",
+      "block.mine_bbb.brokenlamp": "Broken lamp",
+      "gui.minebbb.thebeginning.SUMMON": "cow"
+    },
+    "zh_cn": {
+      "item.minebbb.unknownliquid": "瓶装的不明液体",
+      "block.minebbb.warning_wall": "警告墙壁",
+      "block.bsf.warning_wall": "警告墙壁",
+      "block.mine_bbb.level_0_floor": "Level 0 地板",
+      "block.minebbb.level_1_wall": "Level 1 墙壁",
+      "block.mine_bbb.warningblock": "警告方块",
+      "block.mine_bbb.level_0_celling": "Level 0 天花板",
+      "block.bsf.level_1_wall": "Level 1 墙壁",
+      "block.bsf.level_1_floor": "Level 1 地板",
+      "block.minebbb.ironbox": "铁板条箱",
+      "block.minebbb.ironbox_2": "铁板条箱 (交叉型)",
+      "block.minebbb.level_0lamp": "Level 0 荧光灯",
+      "block.bsf.level_0_celling": "Level 0 天花板",
+      "item.minebbb.level_key": "层级密钥",
+      "block.minebbb.brokenlamp": "破损的荧光灯",
+      "item.minecraft.lingering_potion.effect.liquidpain": "滞留型液态痛苦",
+      "item.minebbb.money": "钱",
+      "block.mine_bbb.level_1_floor": "Level 1 地板",
+      "block.bsf.level_0_wallpaper": "Level 0 墙壁",
+      "block.minebbb.level_1_pipeline": "Level 1 管道",
+      "item.minecraft.potion.effect.liquidpain": "瓶装液态痛苦",
+      "block.minebbb.level_0_celling": "Level 0 天花板",
+      "block.bsf.level_0_floor": "Level 0 地板",
+      "item.minebbb.tomatocanning": "番茄罐头",
+      "block.minebbb.level_0_wallpaper": "Level 0 墙壁",
+      "gui.minebbb.thebeginning.button_summon_mob": "召唤_生物",
+      "block.minebbb.warningblock": "警告方块",
+      "block.minebbb.level_1_ceiling": "Level 1 天花板",
+      "block.mine_bbb.level_0lamp": "Level 0 灯光",
+      "gui.minebbb.thebeginning.button_close": "关闭",
+      "block.mine_bbb.level_0_wallpaper_2": "Level 0 壁纸 2",
+      "block.minebbb.level_1_floor": "Level 1 地板",
+      "item.minecraft.tipped_arrow.effect.liquidpain": "液态痛苦箭",
+      "block.bsf.level_0_wallpaper_2": "Level 0 壁纸 2",
+      "block.minebbb.copper_block": "黑铜块",
+      "itemGroup.tabbsf_mod": "后室世界",
+      "block.minebbb.box": "快递盒",
+      "block.mine_bbb.warning_wall": "警告墙壁",
+      "item.minebbb.firesalt": "火盐",
+      "gui.minebbb.thebeginning.button_quit": "退出",
+      "block.bsf.brokenlamp": "破损的荧光灯",
+      "block.mine_bbb.level_0_wallpaper": "Level 0 墙纸",
+      "block.bsf.warningblock": "警告方块",
+      "block.minebbb.ironbar": "铁丝网",
+      "block.minebbb.level_0_wallpaper_2": "Level 0 壁纸 2",
+      "item.minecraft.splash_potion.effect.liquidpain": "喷溅型液态痛苦",
+      "block.mine_bbb.level_1_wall": "Level 1 墙壁",
+      "block.minebbb.level_0_floor": "Level 0 地板",
+      "item.minebbb.cola": "可乐",
+      "block.bsf.level_0lamp": "Level 0 荧光灯",
+      "gui.minebbb.thebeginning.label_terminal": "终端",
+      "block.mine_bbb.brokenlamp": "破损的荧光灯",
+      "gui.minebbb.thebeginning.SUMMON": "cow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minebbb",
+    "modName": "MineBBB",
+    "version": "1.0.0",
+    "description": "A open source backrooms mod.",
+    "author": "HYPER, MCreator",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "backrooms",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

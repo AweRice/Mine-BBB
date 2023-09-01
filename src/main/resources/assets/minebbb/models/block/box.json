@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebbb:blocks/zhi_xiang__di_v2",
+    "up": "minebbb:blocks/zhi_xiang_ding_",
+    "north": "minebbb:blocks/zhi_xiang__si_zhou_",
+    "east": "minebbb:blocks/zhi_xiang__si_zhou_",
+    "south": "minebbb:blocks/zhi_xiang__si_zhou_",
+    "west": "minebbb:blocks/zhi_xiang__si_zhou_",
+    "particle": "minebbb:blocks/zhi_xiang__di_v2"
+  },
+  "render_type": "solid"
+}
